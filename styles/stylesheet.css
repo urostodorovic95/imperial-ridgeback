@@ -50,12 +50,13 @@
 
 main {
     display: grid;
-    grid-template: repeat(2, 50%) / 100%;
+    grid-template: 1fr 5fr / 80%;
+    justify-content: center;
     text-align: center;
     background-color: bisque;  
 }
 
 main > img {
-    justify-self: center;
     width: fit-content;
+    height: fit-content;
 }
