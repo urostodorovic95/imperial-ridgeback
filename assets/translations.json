@@ -1,14 +1,17 @@
 {
     "en": {
-        "about": "About Us",
-        "litters": "Our Litters"
+        "nav-about": "About Us",
+        "litters": "Our Litters",
+        "nav-dogs": "Our Dogs"
     },
     "srb": {
-        "about": "O Nama",
-        "litters": "Naša Legla"
+        "nav-about": "O Nama",
+        "litters": "Naša Legla",
+         "nav-dogs": "Naši psi"
     },
     "fr": {
-        "about": "À propos",
-        "litters": "Nos portées"
+        "nav-about": "À propos",
+        "litters": "Nos portées",
+         "nav-dogs": "Nos chiens"
     }
 }
