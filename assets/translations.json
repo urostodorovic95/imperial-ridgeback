@@ -28,9 +28,12 @@
     "awardstitle": "Awards",
     "ourdogstitle": "Our Dogs",
     "ourdogsdescription": "Meet our stars!",
+    "dabi-gender": "Male",
+    "aska-gender": "Female",
     "contactustitle": "Contact Us",
     "formdescription": "Please fill out the form underneath and we'll get back to you quickly.",
     "submitButton": "Send message"
+
   },
   "srb": {
     "nav-about": "O Nama",
