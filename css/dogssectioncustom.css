@@ -1,0 +1,52 @@
+/* Portfolio link should have relative positioning for the pseudo-element */
+#team .portfolio-item .portfolio-link {
+  position: relative;
+  display: block; /* Ensure the link is a block element */
+}
+
+/* Hide the portfolio-hover by default */
+#team .portfolio-item .portfolio-link .portfolio-hover {
+  display: flex;
+  position: absolute; /* Position it over the image */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.7); /* Slightly reduced opacity for subtle yellow effect */
+  align-items: center;
+  justify-content: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity ease-in-out 0.25s;
+  z-index: 2; /* Ensure it's above the image */
+}
+
+/* Apply smooth fading effect to the image */
+#team .portfolio-item .portfolio-link img {
+  transition: opacity 0.25s ease; /* Smooth fade on hover */
+  width: 100%; /* Ensure image fills the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+/* On hover, fade the image */
+#team .portfolio-item .portfolio-link:hover img {
+  opacity: 0.3; /* Fade the image slightly */
+}
+
+/* Show the yellow overlay on hover */
+#team .portfolio-item .portfolio-link:hover .portfolio-hover {
+  opacity: 1; /* Show the yellow overlay */
+}
+
+/* Center and style the plus sign inside the image */
+#team .portfolio-item .portfolio-link .portfolio-hover i {
+  font-size: 3rem;
+  color: white; /* White color for the plus icon */
+  opacity: 0.8; /* Slight opacity for the icon */
+  transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+/* On hover, make the plus sign more visible */
+#team .portfolio-item .portfolio-link:hover .portfolio-hover i {
+  opacity: 1; /* Make the plus sign fully visible */
+}

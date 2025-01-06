@@ -52,10 +52,10 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/dogssectioncustom.css">
   </head>
   <body id="page-top">
-    <!-- Navigation-->
-    <!-- Navigation-->
+ 
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -415,95 +415,214 @@
       </div>
     </section>
     <!-- Team-->
-    <section class="page-section bg-light" id="team">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading text-uppercase" id="ourdogstitle"></h2>
-          <h3 class="section-subheading text-muted" id="ourdogsdescription">
-      
-          </h3>
-        </div>
-        <div class="row justify-content-center">
-          <!-- First team member -->
-          <div class="col-md-5 col-lg-4 mb-4">
-            <div class="team-member text-center">
-              <img
-                class="mx-auto rounded-circle img-fluid"
-                src="assets/img/team/lena-remmert-iKBDC8xrM4w-unsplash.jpg"
-                alt="..."
-              />
-              <h4>Makalodublin</h4>
-              <p class="text-muted" id="dabi-gender"></p>
-              <p class="text-primary">International Champion</p>
-              <!-- TODO -->
-               <!-- expand box bootstrap style lookupbox -->
-                <!-- DABI: -->
-                 <!-- Junion Champion of Serbia -->
-              <div><a href=".."">view more details</a></div>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Dabi Twitter Profile"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Dabi Facebook Profile"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Dabi LinkedIn Profile"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
+<!-- Team -->
+<section class="page-section bg-light" id="team">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase" id="ourdogstitle">Our Dogs</h2>
+      <h3 class="section-subheading text-muted" id="ourdogsdescription">Meet our champions</h3>
+    </div>
+    <div class="row justify-content-center">
+      <!-- First team member -->
+      <div class="col-md-5 col-lg-4 mb-4">
+        <div class="portfolio-item team-member">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#dogModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                  <path d="M8 1a.5.5 0 0 1 .5.5v6h6a.5.5 0 0 1 0 1h-6v6a.5.5 0 0 1-1 0v-6h-6a.5.5 0 0 1 0-1h6v-6A.5.5 0 0 1 8 1z"/>
+                </svg>
+              </div>
             </div>
-          </div>
-          <!-- Second team member -->
-          <div class="col-md-5 col-lg-4 mb-4">
-            <div class="team-member text-center">
-              <img
-                class="mx-auto rounded-circle img-fluid"
-                src="assets/img/team/lena-remmert-iKBDC8xrM4w-unsplash.jpg"
-                alt="..."
-              />
-              <h4>Aska Matata Hakuna</h4>
-              <p class="text-muted" id="aska-gender"></p>
-              <p class="text-primary">International Champion</p>
-
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Aska Twitter Profile"
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Aska Facebook Profile"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a
-                class="btn btn-dark btn-social mx-2"
-                href="#!"
-                aria-label="Aska LinkedIn Profile"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-              eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam
-              corporis ea, alias ut unde.
-            </p>
+            <img
+              class="mx-auto img-fluid"
+              src="assets/img/team/lena-remmert-iKBDC8xrM4w-unsplash.jpg"
+              alt="Makalodublin"
+            />
+          </a>
+          <div class="portfolio-caption text-center">
+            <h4>Makalodublin</h4>
+            <p class="text-muted" id="dabi-gender">Male</p>
+            <p class="text-primary">International Champion</p>
           </div>
         </div>
       </div>
-    </section>
+      <!-- Second team member -->
+      <div class="col-md-5 col-lg-4 mb-4">
+        <div class="portfolio-item team-member">
+          <a class="portfolio-link" data-bs-toggle="modal" href="#dogModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                  <path d="M8 1a.5.5 0 0 1 .5.5v6h6a.5.5 0 0 1 0 1h-6v6a.5.5 0 0 1-1 0v-6h-6a.5.5 0 0 1 0-1h6v-6A.5.5 0 0 1 8 1z"/>
+                </svg>
+              </div>
+            </div>
+            <img
+              class="mx-auto img-fluid"
+              src="assets/img/team/lena-remmert-iKBDC8xrM4w-unsplash.jpg"
+              alt="Aska Matata Hakuna"
+            />
+          </a>
+          <div class="portfolio-caption text-center">
+            <h4>Aska Matata Hakuna</h4>
+            <p class="text-muted" id="aska-gender">Female</p>
+            <p class="text-primary">International Champion</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<<!-- Dog Modal 1 -->
+<div class="portfolio-modal modal fade" id="dogModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal">
+        <img src="assets/img/close-icon.svg" alt="Close modal" />
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Makalodublin</h2>
+              <p class="item-intro text-muted">International Champion</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="assets/img/team/lena-remmert-iKBDC8xrM4w-unsplash.jpg"
+                alt="Makalodublin"
+              />
+              
+
+              <h4 class="mt-4">Achievements:</h4>
+              <ul class="list-unstyled">
+                <li>Junior Champion of Serbia</li>
+                <li>Champion of Serbia, Macedonia, Hungary, Greece, Montenegro, Balkan, Mediterranean, Bosnia and Herzegovina</li>
+                <li>Grand Champion of Serbia, Macedonia, Montenegro</li>
+                <li>Budapest GP Winner 2021</li>
+                <li>BOB Winner of Thessaloniki 2023</li>
+                <li>Spring Dog Show HR 2024 - Excellent</li>
+                <li>World Dog Show 2024 HR - Excellent</li>
+                <li>European FCI Dog Show 2024 SL - Excellent</li>
+              </ul>
+
+              <h4 class="mt-4">Genetic Tests:</h4>
+              <ul class="list-unstyled">
+                <li>OCD Free</li>
+                <li>DM: N/N</li>
+                <li>B-Locus: B/B</li>
+                <li>Haemophilia B: N/N</li>
+                <li>JME: N/N</li>
+                <li>D-LOCUS: D/D</li>
+                <li>DNA-Profile: ISAG 2006</li>
+              </ul>
+
+              <h4 class="mt-4">Other Tests:</h4>
+              <ul class="list-unstyled">
+                <li>Cardiological exams - transthoracic ultrasound: normal, normal LA/AO ratio, LV Teichholz method OK, Mitral valve normal</li>
+                <li>Full dentition, scissor bite</li>
+                <li>Eyes clear</li>
+                <li>HD: A/A</li>
+                <li>ED: 0/0</li>
+              </ul>
+
+              <h4 class="mt-4">Pedigree:</h4>
+              <ul class="list-unstyled">
+                <li><strong>Dam:</strong> Lobengula Maisha Ifama (imported from Russia)</li>
+                <li><strong>Sire:</strong> Mwamba Lion Strength (origin from CAN/SRB/HUN)</li>
+              </ul>
+
+              <button
+                class="btn btn-primary btn-xl text-uppercase"
+                data-bs-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-xmark me-1"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Dog Modal 2 -->
+<div class="portfolio-modal modal fade" id="dogModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-bs-dismiss="modal">
+        <img src="assets/img/close-icon.svg" alt="Close modal" />
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Aska Matata Hakuna</h2>
+              <p class="item-intro text-muted">International Champion</p>
+              <img
+                class="img-fluid d-block mx-auto"
+                src="assets/img/team/lena-remmert-iKBDC8xrM4w-unsplash.jpg"
+                alt="Aska Matata Hakuna"
+              />
+             
+
+              <h4 class="mt-4">Achievements:</h4>
+              <ul class="list-unstyled">
+                <li>Junior Champion of Serbia, Bosnia and Herzegovina, Macedonia</li>
+                <li>Champion of Serbia, Macedonia</li>
+                <li>Grand Champion of Serbia, Macedonia</li>
+                <li>Spring Dog Show HR 2024 - Excellent</li>
+                <li>World Dog Show 2024 HR - Excellent</li>
+                <li>European FCI Dog Show 2024 SL - Excellent</li>
+              </ul>
+
+              <h4 class="mt-4">Genetic Tests:</h4>
+              <ul class="list-unstyled">
+                <li>OCD Free</li>
+                <li>DM: N/N</li>
+                <li>B-Locus: B/B</li>
+                <li>Haemophilia B: N/N</li>
+                <li>JME: N/N</li>
+                <li>D-LOCUS: D/D</li>
+                <li>DNA-Profile: ISAG 2006</li>
+              </ul>
+
+              <h4 class="mt-4">Other Tests:</h4>
+              <ul class="list-unstyled">
+                <li>Cardiological exams - transthoracic ultrasound: normal, normal LA/AO ratio, LV Teichholz method OK, Mitral valve normal</li>
+                <li>Full dentition, scissor bite</li>
+                <li>Eyes clear</li>
+                <li>HD: A/A</li>
+                <li>ED: 0/0</li>
+              </ul>
+
+              <h4 class="mt-4">Pedigree:</h4>
+              <ul class="list-unstyled">
+                <li><strong>Dam:</strong> Hawa Mudiwa Feza (origin from PL)</li>
+                <li><strong>Sire:</strong> EL Roy Arte Cassari</li>
+              </ul>
+
+              <button
+                class="btn btn-primary btn-xl text-uppercase"
+                data-bs-dismiss="modal"
+                type="button"
+              >
+                <i class="fas fa-xmark me-1"></i>
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
  
 <!-- Contact -->
 <section class="page-section" id="contact">
