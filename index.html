@@ -40,6 +40,7 @@
     ></script>
     <!-- Google fonts-->
     <script src="js/languageselector.js" defer></script>
+    <script src="js/customgallery.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
@@ -53,6 +54,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/dogssectioncustom.css">
+    <link rel="stylesheet" href="css/customgallery.css">
   </head>
   <body id="page-top">
  
@@ -570,7 +572,48 @@
   </div>
 </div>
 
+<!-- Gallery Section -->
+<section class="custom-gallery-section py-5">
+  <div class="container">
+    <h2 class="text-center custom-gallery-title">Photo Gallery</h2>
+    <div class="custom-gallery-scroll-container d-flex overflow-auto">
+      <!-- Gallery Item 1 -->
+      <div class="custom-gallery-item mx-2">
+        <img src="assets/img/gallery/photo1.heic" alt="Gallery Image 1" class="img-fluid custom-gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="assets/img/gallery/photo1.heic">
+      </div>
+      <!-- Gallery Item 2 -->
+      <div class="custom-gallery-item mx-2">
+        <img src="assets/img/gallery/photo2.heic" alt="Gallery Image 2" class="img-fluid custom-gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="assets/img/gallery/photo2.heic">
+      </div>
+      <!-- Gallery Item 3 -->
+      <div class="custom-gallery-item mx-2">
+        <img src="assets/img/gallery/photo3.heic" alt="Gallery Image 3" class="img-fluid custom-gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="assets/img/gallery/photo3.heic">
+      </div>
+      <!-- Gallery Item 4 -->
+      <div class="custom-gallery-item mx-2">
+        <img src="assets/img/gallery/photo4.heic" alt="Gallery Image 4" class="img-fluid custom-gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="assets/img/gallery/photo4.heic">
+      </div>
+      <!-- Gallery Item 5 -->
+      <div class="custom-gallery-item mx-2">
+        <img src="assets/img/gallery/photo5.heic" alt="Gallery Image 5" class="img-fluid custom-gallery-img" data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-img="assets/img/gallery/photo5.heic">
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Modal for Image Preview -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="" id="modalImage" class="img-fluid" alt="Modal Image">
+      </div>
+    </div>
+  </div>
+</div>
  
 <!-- Contact -->
 <section class="page-section" id="contact">
