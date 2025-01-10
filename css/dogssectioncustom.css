@@ -50,3 +50,7 @@
 #team .portfolio-item .portfolio-link:hover .portfolio-hover i {
   opacity: 1; /* Make the plus sign fully visible */
 }
+
+#team {
+  background-color: white !important;
+}

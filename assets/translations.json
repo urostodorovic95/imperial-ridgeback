@@ -33,7 +33,8 @@
     "aska-gender": "Female",
     "contactustitle": "Contact Us",
     "formdescription": "Please fill out the form underneath and we'll get back to you quickly.",
-    "submitButton": "Send message"
+    "submitButton": "Send message",
+    "gallery-title": "Photo Gallery"
 
   },
   "srb": {
@@ -64,7 +65,8 @@
     "ourdogsdescription": "Upoznajte naše zvezde!",
     "contactustitle": "Kontaktirajte Nas",
     "formdescription": "Molimo vas da popunite formular ispod i ubrzo ćemo vam se javiti.",
-    "submitButton": "Pošaljite poruku"
+    "submitButton": "Pošaljite poruku",
+    "gallery-title": "Foto Galerija"
   },
   "fr": {
     "nav-about": "À propos",

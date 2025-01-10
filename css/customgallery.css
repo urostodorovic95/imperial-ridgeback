@@ -4,12 +4,6 @@
   padding-bottom: 50px;
 }
 
-.custom-gallery-title {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #333;
-}
-
 .custom-gallery-scroll-container {
   overflow-x: auto;
   display: flex;
